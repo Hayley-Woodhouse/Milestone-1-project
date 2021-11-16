@@ -1,3 +1,65 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700|Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
+
+.nav-link {
+    color: rgba(190, 196, 196, 0.979);
+    font-family: 'montserrat', sans-serif;
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+.logo {
+    color: rgba(190, 196, 196, 0.979);
+    padding-top: 0;
+    padding-left: 200px;
+    font-family: 'Manrope', sans-serif;
+    font-size: xx-large;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
+}
+
+@media (max-width: 900px) {
+    .logo {
+      font-size: large;
+    }
+  }
+
+  @media (max-width: 375px) {
+    .logo {
+      font-size: x-small;
+    }
+  }
+
+
+  
+  @include media-breakpoint-up(lg) {
+    html {
+      font-size: 1.6rem;
+    }
+  }
+
+
+/*-----------------------hero backgroung img home page-------*/
+.bg-img {
+    background-image: url(../images/Hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
+    
+     
+}
+
+
+    
+
+
+.row {
+    --bs-gutter-x: 0;
+}
+
+
 
