@@ -1,65 +1,292 @@
+/*-----------------------Nav bar---------------*/
 
+.bg {
+  background-color: rgb(93, 159, 161);
+}
+
+.navbar {
+  padding-top: 30px;
+}
 
 .nav-link {
-    color: rgba(190, 196, 196, 0.979);
     font-family: 'montserrat', sans-serif;
+    font-size: 700;
 }
-
-.nav-link:hover {
-    color: black;
-}
-
-.logo {
-    color: rgba(190, 196, 196, 0.979);
-    padding-top: 0;
-    padding-left: 200px;
-    font-family: 'Manrope', sans-serif;
-    font-size: xx-large;
-    text-transform: uppercase;
-    letter-spacing: 0.3em;
-    text-decoration: underline;
-    text-underline-offset: 0.2em;
-}
-
-@media (max-width: 900px) {
-    .logo {
-      font-size: large;
-    }
-  }
-
-  @media (max-width: 375px) {
-    .logo {
-      font-size: x-small;
-    }
-  }
-
-
-  
-  @include media-breakpoint-up(lg) {
-    html {
-      font-size: 1.6rem;
-    }
-  }
-
-
-/*-----------------------hero backgroung img home page-------*/
-.bg-img {
-    background-image: url(../images/Hero.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    
-    
-     
-}
-
-
-    
-
 
 .row {
-    --bs-gutter-x: 0;
+  --bs-gutter-x: 0;
+}
+
+/*-----------------------Logo Home Page----------*/
+
+.logo {
+    color: rgba(255, 255, 255, 0.952);
+    padding-top: 200px;
+    padding-bottom: 400px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.3em;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-underline-offset: 0.2em;
+}
+ @media screen and (max-width:860px){
+   .logo{
+     font-size: 5vw;
+   }
+  }
+ 
+  @media screen and (min-width:1007px) {
+    .logo {
+      font-size: 5vw;
+    }
+  }
+  @media screen and (min-width: 1008px) {
+    .logo {
+      font-size: 5vw; 
+    }
+  }
+/*-----------------------Backgroung Img Home|contact|booking Page-------*/
+
+.bg-img-index {
+    background-color: black;
+    background-image: url(../images/hero-image.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    width: 100%;
+    height: auto; 
+}
+
+.bg-img-contact {
+  background-color: black;
+  background-image: url(../images/contact.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  width: 100%;
+  height: auto; 
+}
+
+
+.space {
+  padding: 20px;
+  background-color: rgb(93, 159, 161);
+  z-index: 1;
+}
+
+/*-----------------------Opening Times-Table-Home Page--------*/
+
+table {
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.open {
+  font-family: 'montserrat', sans-serif;
+  font-size: 1em;
+  color: rgba(255, 255, 255, 0.952);
+  background-color: rgba(190, 196, 196, 0.979);
+  display: block;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+
+.open-head {
+  font-weight: 500;
+  font-size: 27px;
+  text-transform: capitalize;
+  letter-spacing: 0.2px;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-underline-offset: 10px;
+  text-decoration-thickness: 2px;
+}
+
+.times {
+  text-transform: uppercase;
+  text-align: right;
+  display: block;
+}
+
+/*-----------------------Info text-Home Page--------*/
+
+
+.info-container {
+  font-family: 'montserrat', sans-serif;
+  font-size: 1em;
+  color: rgba(255, 255, 255, 0.952);
+  background-color: rgba(160, 167, 167, 0.979);
+  display: block;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  height: 100%;
+}
+
+.info h1, .contact-form h1 {
+  font-weight: 500;
+  font-size: 27px;
+  text-transform: capitalize;
+  letter-spacing: 0.2px;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-underline-offset: 10px;
+  text-decoration-thickness: 2px;
+}
+
+.info p {
+  padding-top: 5px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+/*-----------------------info-contact-page---------------------*/
+
+.event-info {
+  font-family: 'montserrat', sans-serif;
+  margin: 100px 20px 0 20px;
+  color: rgba(255, 255, 255, 0.952);
+  background-color: rgba(0, 0, 0, 0.685);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.contact-form {
+  font-family: 'montserrat', sans-serif;
+  margin: 100px 0 169px 0;
+  color: rgba(255, 255, 255, 0.952);
+  background-color: rgba(0, 0, 0, 0.685);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.contact-form p {
+  text-align: center;
+}
+
+.box {
+  width: 100%;
+  height: auto;
+}
+
+.submit {
+  background-color: rgba(160, 167, 167, 0.979);
+  color: rgba(255, 255, 255, 0.952);
+  border-style: none;
+  border-radius: 5%;
+}
+
+.address {
+  font-family: 'montserrat', sans-serif;
+  background-color: rgba(160, 167, 167, 0.979);
+  color: rgba(255, 255, 255, 0.952);
+  height: 100%;
+  padding: 40px 50px 40px 50px;
+}
+
+.address p {
+  letter-spacing: 0.5px;
+}
+
+.address h3 {
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+/*-----------------------booking-page---------------------*/
+
+#video {
+  margin-bottom: -8px;
+  z-index: 0;
+}
+
+.book {
+  background-color: black;
+  text-align: center;
+}
+
+.book h1 {
+  color: rgba(255, 255, 255, 0.952);
+  padding-top: 60px;
+  font-family: 'Manrope', sans-serif;
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-underline-offset: 0.2em;
+}
+
+.book p {
+  color: rgba(255, 255, 255, 0.952);
+  font-family: 'montserrat', sans-serif;
 }
 
 
 
+/*-----------------------Footer---------------------*/
+
+footer {
+  position: relative;
+  margin-bottom: 0;
+  height: auto;
+  background-color: #343a40;
+  width: 100%;
+}
+
+.social li a i{
+  width: 35px;
+  height: 35px;
+  padding: 12px 0;
+  border-radius: 10%;
+  font-size: 17px;
+  line-height: 9px;
+  text-align: center;
+  color: #343a40;
+  background-color: rgb(93, 159, 161);
+  transition: all 0.35s ease-in-out; 
+    -moz-transition: all 0.35s ease-in-out; 
+    -webkit-transition: all 0.35s ease-in-out; 
+    -o-transition: all 0.35s ease-in-out; 
+}
+
+.social li a i:hover{
+  color: rgba(255, 255, 255, 0.952);
+}
+
+.social {
+ padding: 8px 0 30px 0;
+}
+
+.social li{
+  margin-left: 10px;
+}
+
+.find-us {
+  width: 80px;
+  height: 35px;
+  padding: 12px 0;
+  border-radius: 10%;
+  font-size: 17px;
+  line-height: 9px;
+  text-align: center;
+  color: #343a40;
+  margin-left: 10px;
+  margin-top: 8px;
+  background-color: rgb(93, 159, 161);
+}
+
+.find-us a {
+  text-decoration: none;
+  font-family: 'montserrat', sans-serif;
+  color: #343a40;
+  font-weight: 500;
+}
