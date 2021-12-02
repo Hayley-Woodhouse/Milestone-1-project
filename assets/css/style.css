@@ -75,8 +75,8 @@ table {
   font-size: 1em;
   background-color: rgba(190, 196, 196, 0.979);
   display: block;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 55px;
+  padding-bottom: 55px;
 }
 
 
@@ -105,8 +105,8 @@ table {
   font-size: 1em;
   background-color: rgba(160, 167, 167, 0.979);
   display: block;
-  padding-bottom: 40px;
-  padding-top: 40px;
+  padding-bottom: 55px;
+  padding-top: 55px;
   height: 100%;
 }
 
