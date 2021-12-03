@@ -1,12 +1,12 @@
 body {
-  color: rgba(255, 255, 255, 0.952);
+  color: rgb(255, 255, 255);
   font-family: 'montserrat', sans-serif;;
 }
 
 /*-----------------------Nav bar---------------*/
 
 .bg {
-  background-color: rgb(93, 159, 161);
+  background-color: rgb(54, 105, 107);
 }
 
 .navbar {
@@ -63,6 +63,18 @@ body {
 
 
 /*-----------------------Opening Times-Table-Home Page--------*/
+.bar-img {
+  max-width: 250px;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: thin;
+  padding: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-bottom: 50px;
+}
 
 table {
   border-collapse: collapse;
@@ -72,9 +84,9 @@ table {
 }
 
 .open {
+  color:rgb(10, 10, 10);
   font-size: 1em;
-  background-color: rgba(190, 196, 196, 0.979);
-  display: block;
+  background-color: rgb(255, 255, 255);
   padding-top: 55px;
   padding-bottom: 55px;
 }
@@ -103,11 +115,24 @@ table {
 
 .info-container {
   font-size: 1em;
-  background-color: rgba(160, 167, 167, 0.979);
+  background-color: rgb(81, 83, 83);
   display: block;
   padding-bottom: 55px;
   padding-top: 55px;
   height: 100%;
+}
+
+.mojito-img {
+  display: block;
+  max-width: 250px;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: thin;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 50px;
 }
 
 .info h1, .contact-form h1 {
@@ -126,8 +151,8 @@ table {
 
 .info p {
   padding-top: 5px;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 
@@ -225,10 +250,26 @@ input {
   padding: 20px 50px 20px 50px;
 }
 
+.book-img {
+  display: none;
+  width: 100%;
+  height: auto;
+}
+
+.drinks {
+  max-width: 200px;
+  height: auto;
+  margin: 5px 18px 5px 18px;
+}
+
+.background {
+  background-color: black;
+}
+
 /*-----------------------blue spacing-------------------------*/
 .space {
   padding: 20px;
-  background-color: rgb(93, 159, 161);
+  background-color: rgb(54, 105, 107);
   z-index: 1;
 }
 
@@ -238,7 +279,7 @@ footer {
   position: relative;
   margin-bottom: 0;
   height: auto;
-  background-color: #343a40;
+  background-color:rgb(255, 255, 255);
   width: 100%;
   z-index: 2;
 }
@@ -252,7 +293,7 @@ footer {
   line-height: 9px;
   text-align: center;
   color: #343a40;
-  background-color: rgb(93, 159, 161);
+  background-color: rgb(54, 105, 107);
   transition: all 0.35s ease-in-out; 
     -moz-transition: all 0.35s ease-in-out; 
     -webkit-transition: all 0.35s ease-in-out; 
@@ -283,7 +324,7 @@ footer {
   color: #343a40;
   margin-left: 20px;
   margin-top: 10px;
-  background-color: rgb(93, 159, 161);
+  background-color: rgb(54, 105, 107);;
 }
 
 .find-us a {
@@ -300,13 +341,22 @@ footer {
     top: 90px;
     left: 24vw;
   }
-  span.gap {
-    line-height: 40px;
-  }
   .logo {
     font-size: 5vw; 
   }
+  .info h1 {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  
+  .info p {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  span.gap {
+    line-height: 50px;
 }
+
 
 @media screen and (max-width:726px) and (min-width:320px) {
   .book {
@@ -352,6 +402,20 @@ footer {
   .space {
     padding: 12px;
   }
+  #video {
+    display: none;
+  }
+  .book-img {
+    display: block;
+  }
 }
-  
 
+@media screen and (max-width: 1440px) {
+  .info h1 {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  span.gap {
+    line-height: 50px;
+  }
+}
