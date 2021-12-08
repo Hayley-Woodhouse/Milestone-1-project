@@ -25,33 +25,34 @@ body {
 /*-----------------------index Page----------*/
 
 .logo {
-    margin-top: 200px;
+    margin-top: 60px;
     margin-bottom: 400px;
     font-family: 'Manrope', sans-serif;
+    font-weight: 700;
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 0.3em;
-    text-decoration: underline;
-    text-decoration-style: solid;
-    text-underline-offset: 0.2em;
-    text-shadow: 2px 2px #000000a6;
+    padding-top: 40px;
+    padding-bottom: 27px;
+    background-color: rgba(0, 0, 0, 0.5);
 }
  
 /*-----------------------Backgroung Img index & contact page-------*/
 
 .bg-img-index {
   background-color: black;
-  background-image: url(../images/hero-image.jpg);
+  background-image: url(../images/hero-desk.jpg);
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
   width: 100%;
-  height: auto;
+  height: 1350px;
+  margin-top: -100px;
 }
 
 .bg-img-contact {
   background-color: black;
-  background-image: url(../images/contact.jpg);
+  background-image: url(../images/red-drink.jpg);
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
@@ -59,49 +60,40 @@ body {
   height: auto; 
 }
 
-
-
-
 /*-----------------------Opening Times-Table-index Page--------*/
+.header {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-transform: uppercase;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.hr-line {
+  width: 100%;
+  margin-top: 30px;
+}
+
 .bar-img {
+  float: left;
   max-width: 250px;
   border-radius: 50%;
   border-style: solid;
   border-width: thin;
   padding: 5px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
   width: 50%;
-  margin-bottom: 50px;
+  margin-left: 70px;
+  margin-top: 90px;
 }
 
-table {
+table{
   border-collapse: collapse;
   margin-left: auto;
-  margin-right: auto;
-  
-}
-
-.open {
-  color:rgb(10, 10, 10);
-  font-size: 1em;
-  background-color: rgb(255, 255, 255);
-  padding-top: 55px;
-  padding-bottom: 55px;
-}
-
-
-.open-head {
-  font-weight: 500;
-  font-size: 27px;
-  text-transform: capitalize;
-  letter-spacing: 0.2px;
-  text-align: center;
-  text-decoration: underline;
-  text-decoration-style: solid;
-  text-underline-offset: 10px;
-  text-decoration-thickness: 2px;
+  margin-right: 130px;
+  float: right;
+  font-size: 1.3em;
+  margin-top: 100px;
 }
 
 .times {
@@ -110,47 +102,50 @@ table {
   display: block;
 }
 
+
+
 /*-----------------------Info text-index Page--------*/
 
 
 .info-container {
   font-size: 1em;
-  background-color: rgb(81, 83, 83);
-  display: block;
-  padding-bottom: 55px;
-  padding-top: 55px;
-  height: 100%;
+  background-color: rgb(28,28,28);
+  padding-bottom: 150px;
 }
 
 .mojito-img {
-  display: block;
+  float: right;
   max-width: 250px;
   border-radius: 50%;
   border-style: solid;
   border-width: thin;
   padding: 5px;
-  margin-left: auto;
-  margin-right: auto;
   width: 50%;
-  margin-top: 50px;
+  margin-top: -300px;
+  margin-right: 70px;
 }
 
-.info h1, .contact-form h1 {
+.info h1 {
   font-weight: 500;
   font-size: 27px;
+  width: 100%;
   text-transform: capitalize;
   letter-spacing: 0.2px;
-  text-align: center;
-  text-decoration: underline;
-  text-decoration-style: solid;
-  text-underline-offset: 10px;
-  text-decoration-thickness: 2px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 80px;
+  padding-right: 50%;
+  box-sizing: border-box;
 }
 
 .info p {
   padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 50%;
+  margin-left: 70px;
+  text-align: justify;
+}
+
+.closure {
+  text-align: center;
   padding-left: 100px;
   padding-right: 100px;
 }
@@ -162,8 +157,23 @@ table {
 }
 
 .new-text {
+  margin-top: -7%;
   color: black;
   text-align: center;
+  text-transform: capitalize;
+  padding-bottom: 20px;
+}
+
+.try-new {
+  color: black;
+  text-align: center;
+  padding-bottom: 3%;
+  margin-left: 12%;
+  margin-right: 12%;
+}
+
+.highlight {
+  text-transform: uppercase;
 }
 
 .drinks-container {
@@ -182,7 +192,7 @@ table {
   bottom: 100%;
   left: 0;
   right: 0;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.8);
   overflow: hidden;
   width: 100%;
   height: 0;
@@ -213,14 +223,25 @@ table {
 /*-----------------------Contact Page---------------------*/
 
 .event-info {
-  margin: 20px 10px 0 20px;
+  margin: 100px 10px 0 20px;
   background-color: rgba(0, 0, 0, 0.685);
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
+.contact-form h1 {
+  font-weight: 500;
+  font-size: 27px;
+  width: 100%;
+  text-transform: capitalize;
+  letter-spacing: 0.2px;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 .contact-form {
-  margin: 20px 20px 20px 10px;
+  margin: 100px 20px 20px 10px;
   background-color: rgba(0, 0, 0, 0.685);
   padding-top: 10px;
   padding-bottom: 10px;
@@ -234,15 +255,22 @@ table {
 
 .box {
   width: 100%;
-  height: auto;
+  height: 35px;
   border-style: none;
 }
 
 .submit {
-  background-color: rgba(160, 167, 167);
-  color: rgba(255, 255, 255, 0.952);
+  background-color:rgb(54, 105, 107);
   border-style: none;
   border-radius: 5%;
+  width: 200px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.submit-button {
+  text-align: center;
 }
 
 .address {
@@ -286,33 +314,39 @@ table {
 }
 
 #video {
-  margin-top: -80px;
   margin-bottom: -10px;
   z-index: 0;
-  
+}
+
+aside {
+  display: block;
+  float: right;
 }
 
 .book {
   text-align: center;
   top: -1%;
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 10px;
   width: 100%;
   z-index: 1;
   position: absolute;
+  margin-top: 60px;
+  margin-bottom: 400px;
   font-family: 'Manrope', sans-serif;
-  font-size: 5vw;
+  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.3em;
-  text-decoration: underline;
-  text-decoration-style: solid;
-  text-underline-offset: 0.2em;
+  padding-top: 40px;
+  padding-bottom: 27px;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .booking-form {
   z-index: 1;
-  background-color: rgb(81, 83, 83);
-  padding: 20px 50px 20px 50px;
+  background-color: rgb(28,28,28);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .reserved-img {
@@ -327,8 +361,14 @@ table {
   width: 50%;
 }
 
+.gap {
+  margin-top: 20px;
+  width: 100%;
+  height: 35px;
+  border-style: none;
+}
+
 input {
-  margin-top: 5px;
   margin-bottom: 5px;
   border-color: rgba(160, 167, 167);
   border-style: solid;
@@ -336,10 +376,15 @@ input {
 
 .booking-info {
   z-index: 1;
-  background-color: rgb(255, 255, 255);
-  color: black;
+  background-color: rgb(28,28,28);
   text-align: center;
-  padding: 20px 50px 20px 50px;
+  padding: 50px 20px 50px 20px;
+  border: none;
+}
+
+.book-text {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .book-img {
@@ -385,8 +430,8 @@ footer {
   font-size: 17px;
   line-height: 9px;
   text-align: center;
-  color: #343a40;
-  background-color:rgba(255, 255, 255);
+  color: rgba(255, 255, 255);
+  background-color: #343a40;
   transition: all 0.35s ease-in-out; 
     -moz-transition: all 0.35s ease-in-out; 
     -webkit-transition: all 0.35s ease-in-out; 
@@ -394,7 +439,8 @@ footer {
 }
 
 .social li a i:hover{
-  color: rgba(255, 255, 255);
+  background-color:  rgb(54, 105, 107);
+  border-color: rgb(54, 105, 107);
 }
 
 .social {
@@ -407,68 +453,100 @@ footer {
   margin-right: 20px;
 }
 
-.find-us {
+.find-us li a {
+  text-decoration: none;
+  font-size: 6px;
   width: 80px;
   height: 35px;
-  padding: 12px 0;
-  border-radius: 10%;
+  padding: 7px;
+  border-radius: 7%;
   border-style: solid;
   border-width: thin;
   border-color: black;
   font-size: 17px;
   line-height: 9px;
   text-align: center;
-  color: #343a40;
-  margin-left: 20px;
-  margin-top: 10px;
-  background-color: rgba(255, 255, 255);
-
+  color:  rgba(255, 255, 255);
+  background-color: #343a40;
+  transition: all 0.35s ease-in-out; 
+    -moz-transition: all 0.35s ease-in-out; 
+    -webkit-transition: all 0.35s ease-in-out; 
+    -o-transition: all 0.35s ease-in-out;
 }
 
-.find-us a {
-  text-decoration: none;
-  font-family: 'montserrat', sans-serif;
-  color: #343a40;
-  font-weight: 500;
-  
+.find-us li {
+  padding-top: 17px;
+  margin-left: 20px; 
 }
 
+.find-us li a:hover{
+  background-color:  rgb(54, 105, 107);
+  border-color: rgb(54, 105, 107);
+}
 /*-----------------------Media Queries---------------------*/
 
+@media screen and (min-width:427px) {
+  .bg-img-contact {
+    background-image: url(/assets/images/contact.jpg);
+  }
+}
+
 @media screen and (max-width:768px) {
-  
- 
   .info h1 {
-    padding-left: 50px;
-    padding-right: 50px;
+    padding: 0;
+    text-align: center;
   }
   .info p {
-    padding-left: 30px;
-    padding-right: 30px;
+    margin: 0;
+    padding-left: 60px;
+    padding-right: 60px;
   }
   span.gap {
     line-height: 50px;
+  }
+  .mojito-img, .bar-img {
+    display: none;
+  }
+  table {
+    float: none;
+    margin-right: auto;
+  }
 }
+
+@media screen and (max-width: 1025px) {
+  .mojito-img {
+    max-width: 200px;
+    margin-top: -500px;
+  }
+  .bar-img {
+    max-width: 200px;
+    margin-top: 100px;
+  }   
 }
 
 
 @media screen and (max-width:726px) and (min-width:320px) {
-  
-  
   .event-info, .contact-form {
     margin: 20px;
-  }
-  
+  }  
 }
+
+@media screen and (min-width: 768px) {
+  .info-container, .pic-container, .booking-container {
+    margin-left: 12%;
+    margin-right: 12%;
+  }
+}
+
 
 @media screen and (min-width:320px) {
 .col-sm-3 {
     flex: 0 0 auto;
-    width: 25%;
+    width: 40%;
   }
 .col-sm-9 {
   flex: 0 0 auto;
-  width: 75%;
+  width: 60%;
 }
 }
 
@@ -477,9 +555,14 @@ footer {
     margin-right: 10px;
   }
   .find-us {
-    margin-left: 10px;
+    margin-left: -9px;
   }
-
+  .info p {
+    padding: 0 40px 0 40px;
+  }
+  table {
+    font-size: 1em;
+  }
 }
 
 @media screen and (max-width: 425px) {
@@ -495,17 +578,53 @@ footer {
   #video {
     display: none;
   }
+  .book-img{
+    display: block;
+  }
+  .closure {
+    padding: 0 40px 0 40px;
+  }
+  .hide-space {
+    display: none;
+  }
+  .info-container {
+    padding-bottom: 50px;
+  }
+  .header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  table {
+    margin-top: 30px;
+  }
+  .bg-img-index {
+    background-image: url(/assets/images/hero-mob.jpg);
+    margin-top: 0;
+    margin-bottom: -400px;
+  }
 }
 
 @media screen and (max-width: 1440px) {
-  .info h1 {
-    padding-left: 100px;
-    padding-right: 100px;
-  }
   span.gap {
     line-height: 50px;
+    margin-bottom: 0px;
   }
-  
+}
+
+@media screen and (max-width:1440px) and (min-width:426px) {
+  .bg-img-index {
+    background-image: url(/assets/images/hero-lap.jpg);
+    margin-top: 0;
+  }
+}
+
+@media screen and (min-width:1442px) {
+  .logo, .book {
+    font-size: 4em;
+  }
+  .navbar {
+    font-size: 1.5em;
+  }
 }
 
 

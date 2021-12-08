@@ -15,7 +15,7 @@
 <body>
 <!----------------------------navbar with bootstrap--------------->
     <header>
-        <nav class="navbar navbar-expand-md navbar-dark bg" >
+        <nav class="navbar navbar-expand-md navbar-dark bg fixed-top" >
             <div class="container-fluid">
                 <button class="navbar-toggler ms-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon "></span>
@@ -47,9 +47,7 @@
                     <source src="assets/images/book-vid.mp4">
                 </video>
                 <img class="book-img" src="assets/images/booking.jpg" alt="a cocktail served with a side of olives and chips">
-                <div class="book">
-                    <h1>Book a table</h1>
-                </div>
+                <h1 class="book">Book a table</h1>
             </div>
         </div>
     </section>
@@ -61,22 +59,28 @@
     </section>
 <!----------------------------info col and opening times col in table--------------->
     <article>
-        <div class="row container-fluid">
-            <div class="col-md-6 booking-info">
-                <img src="" alt="">
+        <div class="row booking-container">
+            <div class="col-sm-12 booking-info">
                 <p>All our booking avalibility is online.</p>
                 <p>Your reservation is kept for 15 mins, so give us a call if you are running late.</p>
                 <p>Fill in the form to make your reservation.</p>
                 <img class="reserved-img" src="assets/images/reserved.jpg" alt="reseved plaque on a table">
             </div>
-            <div class="col-md-6 booking-form">
+            <div class="col-sm-12 booking-info">
+                <div class="book-text">
+                    <h3><hr class="hr-line">Make it a night to remember!</h3> 
+                    <p>fill out the form below to make your reservation.</p>
+                </div>
+            </div>
+            <div class="col-sm-12 booking-form">
+                <aside><p>* required fields</p></aside>
                 <form action="#" method="post">
-                    <input class="box" type="text" id="fname" name="fname" placeholder="First Name" required>
-                    <input class="box" type="text" id="lname" name="lname" placeholder="Last Name" required>
-                    <input class="box" type="email" name="email" id="email" placeholder="Email" required>
-                    <input class="box" type="number" id="phoneno" name="phoneno" placeholder="Phone Number">
+                    <input class="gap" type="text" id="fname" name="fname" placeholder="First Name*" required>
+                    <input class="gap" type="text" id="lname" name="lname" placeholder="Last Name*" required>
+                    <input class="gap" type="email" name="email" id="email" placeholder="Email*" required>
+                    <input class="gap" type="number" id="phoneno" name="phoneno" placeholder="Phone Number">
                     <br>
-                    <label for="guests">How many guests?</label>
+                    <label for="guests">How many guests?*</label>
                     <br>
                     <select class="box" name="guests" id="guests" required>
                         <option value="1">1</option>
@@ -91,13 +95,15 @@
                         <option value="10">10</option>
                     </select>
                     <br>
-                    <label for="bookdate">Date:</label>
+                    <label for="bookdate">Date*:</label>
                     <br>
                     <input class="box" type="date" id="bookdate" name="bookdate" required>
-                    <label for="time">Time:</label>
+                    <label for="time">Time*:</label>
                     <input class="box" type="time" id="time" name="time" min="17:00" max="01:00" required>
-
-                    <input class="submit" class="box" type="submit" value="Book Now">
+                    <div class="submit-button">
+                        <input class= submit class="box" type="submit" value="Book Now">
+                    </div>
+                    
                 </form>
             </div>
         </div>

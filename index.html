@@ -15,7 +15,7 @@
 <body>
 <!----------------------------navbar with bootstrap--------------->
     <header>
-        <nav class="navbar navbar-expand-md navbar-dark bg" >
+        <nav class="navbar navbar-expand-md navbar-dark bg fixed-top" >
             <div class="container-fluid">
                 <button class="navbar-toggler ms-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon "></span>
@@ -58,68 +58,101 @@
     </section>
 <!-------------info col and opening times col in table with bootstrap grid system---------->
     <article>    
-        <div class="row">
-            <div class="col-md-6 info">
-                <div class="info-container">
-                    <h1>Join us at the <span class="gap">cocktail lounge</span></h1>
-                    <P> We offer an excellent service from our professional cocktail bar staff.  
-                        Our cocktail menu has an increadible list of old and new drinks, that 
-                        will have your head spinning for choice. Our venue is the perfect setting for 
-                        intermite gathering, large parties and is avalible for private hire.</P>
-                        <img class="mojito-img" src="assets/images/mojito.jpg" alt="a glass of mojito with a side of limes">
+        <div class="row info-container">
+            <div class="col-sm-12">
+                <div class="">
+                    <h1 class="header"><hr class="hr-line" >Welcome to the cocktail lounge</h1>
                 </div>
             </div>
-            <div class="col-md-6 open">
-                <img class="bar-img" src="assets/images/bar.jpg" alt="a fully stocked coctail bar">
-                <table class="open-time" >
-                    <h1 class="open-head">Opening times</h1>
-                    <tr>
-                        <td>Monday</td>
-                        <td class="times">5:00pm-12:00pm</td>
+            <div class="col-sm-12">
+                <div class="info container">
+                    <h1>About us</h1>
+                    <P> Established in 1990 the cocktail lounge began as a small family run business. 
+                        It offered and introduced the local community to a wide range of new and exciting cocktail mixes. Today it is a popular and enigmatic destination. 
+                        With professional cocktail bar staff and new, exciting recipes the expanding and delicious menu is unmatched.
+                        <br>
+                        <br>
+                        The menu has the perfect combination of new and old classic cocktails with many non-alcoholic options available.
+                        Our venue is perfect setting for intermate gathering, celebrations and large parties. 
+                        We are also available for private hire just contact us for more information.
+                        <br>
+                        <br>
+                        For a great evening out come and join us at the cocktail lounge.
                         
-                    </tr>
-                    <tr>
-                        <td>Tuesday</td>
-                        <td class="times">5:00pm-12:00am</td>
-                    </tr>  
-                    <tr>
-                        <td>Thursday</td>
-                        <td class="times">5:00pm-1:00am</td>
-                    </tr> 
-                    <tr>
-                        <td>Friday</td>
-                        <td class="times">4:00pm-2:00am</td>
-                    </tr>
-                    <tr>
-                        <td>Saturday</td>
-                        <td class="times">3:00pm-2:00am</td>
-                    </tr>
-                        <td>Sunday</td>
-                        <td class="times">4:00pm-12:00am</td>
-                    </tr>
-
-                </table>
+                        </P>
+                    <img class="mojito-img" src="assets/images/mojito.jpg" alt="a glass of mojito with a side of limes">
+                </div>
+            </div>
+            <div class="col-sm-12">
+                    <h1 class="header"><hr class="hr-line" >Our opening times</h1>
+                    <div class="closure">
+                        <h3>Disclosure</h3>
+                        <p><em>In the event of a private function, notification for closure will be advatised here and on 
+                        our social media platforms.</em></p>
+                    </div>
+            </div>
+            <div class="col-sm-12">
+                <div class="open-time container">
+                    <img class="bar-img" src="assets/images/bar.jpg" alt="a fully stocked coctail bar">
+                        <table>
+                            <thead></thead>
+                            <tbody>
+                                <tr>
+                                    <td>Monday</td>
+                                    <td class="times">5:00pm-12:00pm</td>
+                                </tr>
+                                <tr>
+                                    <td>Tuesday</td>
+                                    <td class="times">5:00pm-12:00am</td>
+                                </tr>  
+                                <tr>
+                                    <td>Thursday</td>
+                                    <td class="times">5:00pm-1:00am</td>
+                                </tr> 
+                                <tr>
+                                    <td>Friday</td>
+                                    <td class="times">4:00pm-2:00am</td>
+                                </tr>
+                                <tr>
+                                    <td>Saturday</td>
+                                    <td class="times">3:00pm-2:00am</td>
+                                </tr>
+                                    <td>Sunday</td>
+                                    <td class="times">4:00pm-12:00am</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                </div>
             </div>
         </div>
     </article>
+        
 <!----------------------------decorative space with bootstrap grid system--------------->
     <section>
         <div class="row">
-            <div class="col space">
+            <div class="col space hide-space">
             </div>
         </div>
     </section>
     <section>
-        <div class="row">
-            <div class="col">
+        <div class="row hide-space">
+            <div class="col-sm-12">
                 <img class="new" src="assets/images/new.png" alt="new label">
-                <p class="new-text" >New and improved receipes</p>
+                <h2 class="new-text" >new and exciting recipes introduced!</h2>
+                <p class="try-new">Here at <span class="highlight"><b>the cocktail lounge</b></span> we are alway improving and adding to our exciting range of drinks.
+                    Find your <em>new</em> favorite cocktail!</p>
             </div>
         </div>
     </section>
-<!----------------------------drinks images with bootstrap grid system--------------->          
+<!----------------------------drinks images with bootstrap grid system--------------->  
+<section>
+    <div class="row">
+        <div class="col space hide-space">
+        </div>
+    </div>
+</section>        
     <section>
-        <div class="row">
+        <div class="row pic-container hide-space">
             <div class="col drinks-container">
                 <img src="assets/images/cosmo.jpg" alt="cosmopolitan cocktail" class="drinks">
                 <div class="slide">
