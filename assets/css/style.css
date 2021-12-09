@@ -41,7 +41,7 @@ body {
 
 .bg-img-index {
   background-color: black;
-  background-image: url(../images/hero-desk.jpg);
+  background-image: url(../images/index-imgs/hero-desk.jpg);
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
@@ -52,12 +52,12 @@ body {
 
 .bg-img-contact {
   background-color: black;
-  background-image: url(../images/red-drink.jpg);
+  background-image: url(../images/contact-imgs/drinks-mob.jpg);
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
   width: 100%;
-  height: auto; 
+  height: 800px; 
 }
 
 /*-----------------------Opening Times-Table-index Page--------*/
@@ -267,6 +267,7 @@ table{
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 40px;
 }
 
 .submit-button {
@@ -321,6 +322,8 @@ table{
 aside {
   display: block;
   float: right;
+  padding-top: 20px;
+  margin-bottom: -15px;
 }
 
 .book {
@@ -343,10 +346,7 @@ aside {
 .booking-form {
   z-index: 1;
   background-color: rgb(28,28,28);
-  padding-top: 50px;
-  padding-bottom: 50px;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding: 10px 20px 10px 20px;
 }
 
 .reserved-img {
@@ -362,24 +362,39 @@ aside {
 }
 
 .gap {
-  margin-top: 20px;
+  width: 20px;
+}
+.book-table {
   width: 100%;
   height: 35px;
   border-style: none;
+  border-radius: 5px;
+  border-style: none;
 }
 
-input {
+.book-tab {
+  width: 100%;
+  height: 35px;
+  border-style: none;
+  margin-top: 20px;
+  border-radius: 5px;
+  border-style: none;
   margin-bottom: 5px;
-  border-color: rgba(160, 167, 167);
-  border-style: solid;
 }
 
 .booking-info {
   z-index: 1;
   background-color: rgb(28,28,28);
   text-align: center;
-  padding: 50px 20px 50px 20px;
+  padding: 40px 20px 40px 20px;
   border: none;
+}
+
+.remember-text{
+  color: black;
+  text-align: center;
+  text-transform: capitalize;
+  padding-bottom: 20px;
 }
 
 .book-text {
@@ -393,11 +408,9 @@ input {
   height: auto;
 }
 
-.drinks-pic {
+.fruit-pic {
   width: 100%;
   height: auto;
-  margin-top: -20px;
-  margin-bottom: -50px;
 }
 
 
@@ -485,10 +498,20 @@ footer {
 }
 /*-----------------------Media Queries---------------------*/
 
-@media screen and (min-width:427px) {
+@media screen and (min-width:769px) {
   .bg-img-contact {
-    background-image: url(/assets/images/contact.jpg);
+    background-image: url(/assets/images/contact-imgs/drinks-desk.jpg);
+    height: 1000px;
   }
+}
+
+@media screen and (min-width:426px) and (max-width:768px) {
+  .bg-img-contact {
+    background-image: url(/assets/images/contact-imgs/drink-tab.jpg);
+    height: 1000px;
+    margin-top: -150px;
+  }
+
 }
 
 @media screen and (max-width:768px) {
@@ -511,6 +534,9 @@ footer {
     float: none;
     margin-right: auto;
   }
+  .reserved-img {
+    max-width: 150px;
+  }
 }
 
 @media screen and (max-width: 1025px) {
@@ -528,7 +554,7 @@ footer {
 @media screen and (max-width:726px) and (min-width:320px) {
   .event-info, .contact-form {
     margin: 20px;
-  }  
+  } 
 }
 
 @media screen and (min-width: 768px) {
@@ -540,11 +566,11 @@ footer {
 
 
 @media screen and (min-width:320px) {
-.col-sm-3 {
+.foot-find {
     flex: 0 0 auto;
     width: 40%;
   }
-.col-sm-9 {
+.foot-soci {
   flex: 0 0 auto;
   width: 60%;
 }
@@ -598,7 +624,7 @@ footer {
     margin-top: 30px;
   }
   .bg-img-index {
-    background-image: url(/assets/images/hero-mob.jpg);
+    background-image: url(/assets/images/index-imgs/hero-mob.jpg);
     margin-top: 0;
     margin-bottom: -400px;
   }
@@ -613,17 +639,34 @@ footer {
 
 @media screen and (max-width:1440px) and (min-width:426px) {
   .bg-img-index {
-    background-image: url(/assets/images/hero-lap.jpg);
+    background-image: url(/assets/images/index-imgs/hero-lap.jpg);
     margin-top: 0;
   }
 }
 
+@media screen and (max-width:1440px) and (min-width: 769px) {
+  .booking-form {
+    padding: 10px 100px 10px 100px;
+  }
+}
+
 @media screen and (min-width:1442px) {
-  .logo, .book {
+  .logo {
     font-size: 4em;
+    margin-top: 190px;
+  }
+  .book{
+    font-size: 4em;
+    margin-top: 100px;
   }
   .navbar {
     font-size: 1.5em;
+  }
+  .booking-form {
+    padding: 10px 300px 10px 300px;
+  }
+  .reserved-img {
+    max-width: 350px;
   }
 }
 
