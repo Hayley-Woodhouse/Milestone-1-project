@@ -3,8 +3,7 @@ body {
   font-family: 'montserrat', sans-serif;;
 }
 
-/*-----------------------Nav bar---------------*/
-
+/*--NAV BAR--*/
 .bg {
   background-color: rgb(54, 105, 107);
 }
@@ -22,7 +21,7 @@ body {
   --bs-gutter-x: 0;
 }
 
-/*-----------------------index Page----------*/
+/*--INDEX PAGE----------*/
 
 .logo {
     margin-top: 60px;
@@ -37,8 +36,6 @@ body {
     background-color: rgba(0, 0, 0, 0.5);
 }
  
-/*-----------------------Backgroung Img index & contact page-------*/
-
 .bg-img-index {
   background-color: black;
   background-image: url(../images/index-imgs/hero-desk.jpg);
@@ -50,17 +47,6 @@ body {
   margin-top: -100px;
 }
 
-.bg-img-contact {
-  background-color: black;
-  background-image: url(../images/contact-imgs/drinks-mob.jpg);
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: cover;
-  width: 100%;
-  height: 800px; 
-}
-
-/*-----------------------Opening Times-Table-index Page--------*/
 .header {
   text-align: center;
   padding-top: 100px;
@@ -101,11 +87,6 @@ table{
   text-align: right;
   display: block;
 }
-
-
-
-/*-----------------------Info text-index Page--------*/
-
 
 .info-container {
   font-size: 1em;
@@ -150,7 +131,6 @@ table{
   padding-right: 100px;
 }
 
-/*-----------------------index page drinks---------------------*/
 .new {
   width: 10%;
   height: auto;
@@ -217,10 +197,17 @@ table{
   -ms-transform: translate(-50%, -50%);
 }
 
+/*--CONTACT PAGE--*/
 
-
-
-/*-----------------------Contact Page---------------------*/
+.bg-img-contact {
+  background-color: black;
+  background-image: url(../images/contact-imgs/drinks-mob.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  width: 100%;
+  height: 800px; 
+}
 
 .event-info {
   margin: 100px 10px 0 20px;
@@ -308,7 +295,7 @@ table{
   padding-top: 20px;
 }
 
-/*-----------------------Booking-Page---------------------*/
+/*-- BOOKING PAGE --*/
 
 .center-container {
   position: relative;
@@ -413,15 +400,14 @@ aside {
   height: auto;
 }
 
-
-/*-----------------------blue spacing-------------------------*/
+/*--BLUE SPACE--*/
 .space {
   padding: 12px;
   background-color: rgb(54, 105, 107);
   z-index: 1;
 }
 
-/*-----------------------Footer---------------------*/
+/*--FOOTER--*/
 
 footer {
   position: relative;
@@ -496,7 +482,7 @@ footer {
   background-color:  rgb(54, 105, 107);
   border-color: rgb(54, 105, 107);
 }
-/*-----------------------Media Queries---------------------*/
+/*--MEDIA QUERIES--*/
 
 @media screen and (min-width:769px) {
   .bg-img-contact {
@@ -511,7 +497,6 @@ footer {
     height: 1000px;
     margin-top: -150px;
   }
-
 }
 
 @media screen and (max-width:768px) {
@@ -533,9 +518,15 @@ footer {
   table {
     float: none;
     margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: -90px;
   }
   .reserved-img {
     max-width: 150px;
+  }
+  .header {
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 }
 
@@ -549,7 +540,6 @@ footer {
     margin-top: 100px;
   }   
 }
-
 
 @media screen and (max-width:726px) and (min-width:320px) {
   .event-info, .contact-form {
@@ -573,7 +563,7 @@ footer {
 .foot-soci {
   flex: 0 0 auto;
   width: 60%;
-}
+  } 
 }
 
 @media screen and (max-width:375px) {
@@ -621,7 +611,7 @@ footer {
     padding-bottom: 30px;
   }
   table {
-    margin-top: 30px;
+    margin-bottom: 30px
   }
   .bg-img-index {
     background-image: url(/assets/images/index-imgs/hero-mob.jpg);
