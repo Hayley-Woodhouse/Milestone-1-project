@@ -10,11 +10,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
-    
     <title>The Cocktail Lounge</title>
 </head>
 <body>
-<!----------------------------navbar with bootstrap--------------->
+<!-- HEADER -->
     <header>
         <nav class="navbar navbar-expand-md navbar-dark bg fixed-top" >
             <div class="container-fluid">
@@ -40,12 +39,28 @@
             </div>   
         </nav>
     </header>
-
-<!----------------------------event info and background image with bootstrap grid system--------------->
+<!-- MAIN BODY -->
     <article>
-        <div class="bg-img-contact">
-            <div class="row container-fluid">
-                    <div class="col-md-6 info">
+        <!--IMG-->
+        <section>
+            <div class="bg-img-contact">
+                <div class="row container-fluid">
+                    <div class="col-sm-12">
+                        <h1 class="contact-header">contact us</h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- SPACE -->
+        <section> 
+            <div class="row">
+                <div class="col space"></div>
+            </div>
+        </section>
+        <!-- BOOKING TEXT & FORM -->
+        <section>
+            <div class="row booking-container">
+                    <div class="col-md-6">
                         <div class="event-info">
                                 <h1>Planning a special <span class="gap" >event?</span></h1>
                                 <p>Are you celebrating a special event? then why not hire the cocktail lounge? with our stylish and ccontempory
@@ -53,7 +68,6 @@
                                 a birthday, aniversary, weddding. then contact us.</p>
                         </div>
                     </div>
-<!----------------------------contact us form with bootstrap grid system--------------->
                     <div class="col-md-6">
                         <div class="contact-form">
                             <form action="#" method="post">
@@ -90,46 +104,58 @@
                         </div>
                     </div>
             </div>
-        </div>
-    </article>
-<!----------------------------decorative space with bootstrap grid system--------------->          
-    <section> 
-        <div class="row">
-            <div class="col space">
+        </section>
+         <!-- SPACE -->
+        <section> 
+            <div class="row">
+                <div class="col space"></div>
             </div>
-        </div>
-    </section>
-<!----------------------------google maps with bootstrap grid system--------------->
-    <section>   
-        <div class="row booking-container">
-            <div class="col-md-6">
-                <div class="map-container">
-                    <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d48674.44622625992!2d-0.16632152823494048!3d51.51414345599691!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x487604ce3941eb1f%3A0x1a5342fdf089c627!2sTrafalgar%20Square%2C%20Trafalgar%20Square%2C%20London!3m2!1d51.508039!2d-0.128069!5e0!3m2!1sen!2suk!4v1639140547897!5m2!1sen!2suk" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                </div>       
-            </div>
-            <div class="col-md-6">
-                <div class="address">
-                    <ul class="list-unstyled">
-                        <h1>Contact us</h1>
-                        <li><i id="icon" class="fas fa-map-pin"></i></li>
-                        <li><p>1 London Road,<br>Trafalgar Square,<br>London<br>WC2N 5DN</p></li>
-                        <li><i id="icon" class="fas fa-phone-square-alt"></i></li>
-                        <li><p>07712 345 678</p></li>
-                        <li><i id="icon" class="far fa-envelope"></i></li>
-                        <li><p>TheCocktaillounge@email.com</p></li>
-                    </ul>   
+        </section>
+        <!-- SUBTEXT -->
+        <section>
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2 class="where-text">Where to find us</h2>
                 </div>
             </div>
-        </div>
-    </section>    
-<!----------------------------decorative space with bootstrap grid system--------------->          
-    <section> 
-        <div class="row">
-            <div class="col space">
+        </section>
+        <!-- SPACE -->
+        <section> 
+            <div class="row">
+                <div class="col space"></div>
             </div>
-        </div>
-    </section>
-<!-------footer, nav to social media and ancor to contact info with bootstrap grid system------->      
+        </section>
+        <!-- MAP & CONTACT-->
+        <section>   
+            <div class="row booking-container">
+                <div class="col-md-6">
+                    <div class="map-container">
+                        <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d48674.44622625992!2d-0.16632152823494048!3d51.51414345599691!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x487604ce3941eb1f%3A0x1a5342fdf089c627!2sTrafalgar%20Square%2C%20Trafalgar%20Square%2C%20London!3m2!1d51.508039!2d-0.128069!5e0!3m2!1sen!2suk!4v1639140547897!5m2!1sen!2suk" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>       
+                </div>
+                <div class="col-md-6">
+                    <div class="address">
+                        <ul class="list-unstyled">
+                            <h1>Contact us</h1>
+                            <li><i id="icon" class="fas fa-map-pin"></i></li>
+                            <li><p>1 London Road,<br>Trafalgar Square,<br>London<br>WC2N 5DN</p></li>
+                            <li><i id="icon" class="fas fa-phone-square-alt"></i></li>
+                            <li><p>07712 345 678</p></li>
+                            <li><i id="icon" class="far fa-envelope"></i></li>
+                            <li><p>TheCocktaillounge@email.com</p></li>
+                        </ul>   
+                    </div>
+                </div>
+            </div>
+        </section>    
+         <!-- SPACE-->
+        <section> 
+            <div class="row">
+                <div class="col space"></div>
+            </div>
+        </section>
+    </article>
+    <!-- FOOTER -->
     <footer>
         <nav>
             <div class="row container-fluid">
