@@ -100,8 +100,8 @@
                     <aside><p>* required fields</p></aside>
                 </div>
             </div>
-            <form class="booking-form" action="#" method="post">
-                <div class="row justify-content-center">
+            <form class="booking-container" action="#" method="post">
+                <div class="row justify-content-center booking-form">
                     <div class="col-md-5">
                         <input class="book-tab" type="text" id="fname" name="fname" placeholder="First Name*" required>
                     </div>
@@ -110,7 +110,7 @@
                         <input class="book-tab" type="text" id="lname" name="lname" placeholder="Last Name*" required>
                     </div>
                 </div>
-                <div class="row justify-content-center">
+                <div class="row justify-content-center booking-form">
                     <div class="col-md-5">
                         <input class="book-tab" type="email" name="email" id="email" placeholder="Email*" required>
                     </div>
@@ -119,7 +119,7 @@
                         <input class="book-tab" type="number" id="phoneno" name="phoneno" placeholder="Phone Number">
                     </div>
                 </div>
-                <div class="row justify-content-center">
+                <div class="row justify-content-center booking-form">
                     <div class="col-md-4">     
                         <label for="guests">How many guests?*</label>
                         <select class="book-table" name="guests" id="guests" required>
@@ -136,22 +136,24 @@
                         </select>
                     </div>
                     <div class="col-md-1 gap"></div>
-                    <div class="col-md-4">
+                    <div class="col-md-3">
                         <label for="bookdate">Date*:</label>
                         <br>
                         <input class="book-table" type="date" id="bookdate" name="bookdate" required>
                     </div>
                     <div class="col-md-1 gap"></div>
-                    <div class="col-md-2">
+                    <div class="col-md-3">
                         <label for="time">Time*:</label>
                         <br>
                         <input class="book-table" type="time" id="time" name="time" min="17:00" max="01:00" required>
                     </div>
-                    <div class="col-sm-12">
-                        <div class="submit-button">
-                            <input class= submit class="box" type="submit" value="Book Now">
-                        </div>
-                    </div> 
+                    <div class="row justify-content-center booking-form">
+                        <div class="col-sm-12">
+                            <div class="submit-button">
+                                <input class= submit class="box" type="submit" value="Book Now">
+                            </div>
+                        </div> 
+                    </div>
                 </div>  
             </form>
         </section>
@@ -174,7 +176,6 @@
             </div>
         </section>
     </article>
-   
 <!-- FOOTER -->    
     <footer>
         <nav>

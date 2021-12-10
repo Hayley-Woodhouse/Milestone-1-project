@@ -262,8 +262,7 @@ table{
 }
 
 .address {
-  background-color: rgb(255, 255, 255);
-  color: black;
+  background-color: rgb(28, 28, 28);
   height: 100%;
   padding: 40px 50px 40px 50px;
 }
@@ -293,6 +292,19 @@ table{
   font-size: 30px;
   color: rgb(81, 83, 83);
   padding-top: 20px;
+}
+
+#map {
+  width: 70%;
+  height: 300px;
+  margin-left: 15%;
+  margin-top: 85px;
+  margin-bottom: 85px;
+  border-radius: 4%;
+}
+
+.map-container {
+  background-color: rgb(28,28,28);
 }
 
 /*-- BOOKING PAGE --*/
