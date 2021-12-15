@@ -1,108 +1,210 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# The Cocktail Lounge
 
-Welcome Hayley-Woodhouse,
+The cocktail lounge website is designed to target the interest of new and returning customers. The website provides background information of the history of the bar. Contact details and booking forms are easily accessible and photos of the lounge are a helpful and enjoyable user experience. 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+# Contents
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+* [User's goals](#users-goals)
+* [Owner's Goals](#owners-goals)
+* [Wireframes](#wireframes)
+* [Typography](#typography)
+* [Colour Scheme](#colour-scheme)
+* [Features](#features)
+    *  [Navbar](#navbar)
+    * [Footer](#footer)
+    * [Favicon](#favicon)
+* [Index.html features](#indexhtml-features)
+    * [About us](#aboutus)
+    * [Opening times](#openingtimes)
 
-## Gitpod Reminders
+# UX design
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### User’s goals
 
-`python3 -m http.server`
+-	As a site-visitor I want to be able to contact the bar.
+-	As a site-visitor I want to see images of the bar to get a feel for the setting.
+-	As a site-visitor I want to be able to see a menu and offers.
+-	As a site-visitor I want a clear map so that I’m able to find it easily.
+-	As a site-visitor I want to be able to find access to reviews.
+-	As a site-visitor I want to be informed of all upcoming events.
 
-A blue button should appear to click: _Make Public_,
+[Back to top](#contents) 
 
-Another blue button should appear to click: _Open Browser_.
+### Owner’s goals
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+-	As the owner I want to attract new and revisiting customers.
+-	As the owner I would the site to reflect the style and theme of the bar.
+-	As the owner I would like a lot of images of the bar and staff used for familiarity.
+-	As the owner I would like a booking system available. 
+-	As the owner I would like to market our brand and logo.
 
-A blue button should appear to click: _Make Public_,
+[Back to top](#contents) 
 
-Another blue button should appear to click: _Open Browser_.
+# Wireframes
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+The wireframes were created in conjuction with the  users and the owner’s highlighted goals. All frames are displated in desktop/laytop, tablet and mobile devices. 
 
-To log into the Heroku toolbelt CLI:
+### index.html 
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+![index wireframe](/assets/images/readme-imgs/index-wireframe.png)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+### booking.html
 
-------
+![booking wireframe](/assets/images/readme-imgs/booking-wireframe.png)
 
-## Release History
+### contact.html
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+![contact wireframe](/assets/images/readme-imgs/contact-wireframe.png)
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+[Back to top](#contents)
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+# Typography
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+The following fonts were used within the cocktail lounge website. 
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+### Manrope 
+-   Weight values: 200,300,400,500,600,700 
+This font is used for the headings sections with a full back font set to san-serif.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+### Montserrat
+-   Weight values: 100,200,300,400,500,600,700,800
+This font is used for the main body text and has a full back font of san-serif also.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+[Back to top](#contents)
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+# Colour scheme
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+The colour scheme used would have been representative of the bar’s decor and its predesigned logo. This is to support continuity and familiarity between the setting and its website.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+![colour sections](/assets/images/readme-imgs/colour-selection.png)
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+Colour codes used:
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+white rgb(255,255,255)
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+Blue/Green rgb(54,105,107)
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+Light Grey rgb(186,189,189)
 
-------
+Dark Grey #343a40
 
-## FAQ about the uptime script
+[Back to top](#contents)
 
-**Why have you added this script?**
+# Features
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+The following feature are currently available within the existing web page for the cocktail lounge. The design and layout are intended to give a positive user experience in a straightforward and understandable format.
 
-**How will this affect me?**
+ ## Navbar
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+The navigation bar is fixed to the top of each page, to enable navigation between the three pages without having to scroll up. The links for each page are clearly labelled with an additional link to a pdf menu. The navbar then collapses to a hamburger menu on the small mobile devices. 
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+![navbar image](/assets/images/readme-imgs/navbar.png)
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+[Back to top](#contents)
 
-**So….?**
+## Favicon
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+The favicon image was selected from [favicon.io](https://favicon.io/emoji-favicons/cocktail-glass) and is a reflection of the bar and websites image.
 
-**Can I opt out?**
+[Back to top](#contents)
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+## Footer
+    
+The footer contains four links to social media pages. Trip adviser, Facebook, twitter, and Instagram. It also has a find us link that navigates to the contact information and map on the contact.html page.
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+![footer image](/assets/images/readme-imgs/footer.png)
 
-**Anything more?**
+[Back to top](#contents)
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+# index.html features
 
----
+## About us
+    
+A description about the cocktail lounge, its history and what is available at the setting. 
+The collaborating drink image showcase the bars menu and style. Photo used from [pixlr.com](https://pixlr.com/) - [image address](https://images.unsplash.com/photo-1546171753-97d7676e4602?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=Mnw0NTMzNXwwfDF8c2VhcmNofDMwfHxjb2NrdGFpbHN8ZW58MHx8fHwxNjM4NTMyMTI4&ixlib=rb-1.2.1&q=80&w=200). The photo was compressed from 189.8kb to 79.8kb using [TinyPNG](https://tinypng.com/)
 
-Happy coding!
+![about us image](/assets/images/readme-imgs/about-us.png)
+
+[Back to top](#contents)
+
+## Opening times
+
+A simple table with the opening days and times of the bar. The collaborating bar image gives the user a visual aspect of the bar. Photo used from [pixlr.com](https://pixlr.com/) - [image address](https://images.unsplash.com/photo-1591257904364-5137d7203d96?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=Mnw0NTMzNXwwfDF8c2VhcmNofDExMHx8Y29ja3RhaWwlMjBiYXJ8ZW58MHx8fHwxNjM4NTMyNzUx&ixlib=rb-1.2.1&q=80&w=200). The photo was compressed from 614.5kb to 79.8kb using [TinyPNG](https://tinypng.com/)
+
+![opening times image](/assets/images/readme-imgs/opening.png)
+
+[Back to top](#contents)
+
+## Drinks images
+
+Four images of drinks available at the bar when hoovering over the image a filter slides over the image displaying the name of the drink. This provides the user a visual of the drinks menu and service provided at the lounge. [pixlr.com](https://pixlr.com/).
+
+-   [cosmopolitan image address](https://images.unsplash.com/photo-1578664279522-644eace14e48?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=Mnw0NTMzNXwwfDF8c2VhcmNofDI2M3x8Y29ja3RhaWx8ZW58MHx8fHwxNjM4NTQ5OTIy&ixlib=rb-1.2.1&q=80&w=200). 
+This photo was compressed from 85.9kb to 49.4kb.
+
+-   [old fastioned image address](https://images.unsplash.com/photo-1470337458703-46ad1756a187?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=Mnw0NTMzNXwwfDF8c2VhcmNofDEyOXx8Y29ja3RhaWxzfGVufDB8fHx8MTYzODU0MzcyMA&ixlib=rb-1.2.1&q=80&w=200). 
+This photo was compressed from 262.3kb to 147.1kb.
+
+-   [screwdriver image address](https://images.unsplash.com/photo-1578664279548-eee4d985cb80?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=Mnw0NTMzNXwwfDF8c2VhcmNofDQ3MXx8Y29ja3RhaWx8ZW58MHx8fHwxNjM4NTQ5OTkz&ixlib=rb-1.2.1&q=80&w=200). 
+This photo was compressed from 334.1kb to 129.8kb.
+
+-   [expresso martini image address](https://images.unsplash.com/photo-1619503569646-50b2154078ac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=Mnw0NTMzNXwwfDF8c2VhcmNofDMxMXx8ZXhwcmVzc28lMjBtYXJ0aW5pfGVufDB8fHx8MTYzOTQ4NTM0Mw&ixlib=rb-1.2.1&q=80&w=200). 
+This photo was compressed from 114.5kb to 67.7kb.
+
+All photos compressed via [TinyPNG](https://tinypng.com/)
+
+![drinks images](/assets/images/readme-imgs/drinks-png.png)
+
+[Back to top](#contents)
+
+# Booking.html feature
+
+## Video
+    
+The video is muted, repeated lopped and begins playing when the page loads. it is also replaced on mobile devices for a static image. The video and image are a direct representation of the bar to provide familiarity to the user.
+
+![video](/assets/images/readme-imgs/video.png) * Video by Anthony Shkraba from [pexels](https://www.pexels.com/) compressed from 9.60mb to 5.10 mb via [freeconvert](https://www.freeconvert.com/video-compressor).
+
+
+![booking image](/assets/images/readme-imgs/book-img.png)
+
+*image from [pixlr.com](https://pixlr.com/) compressed from 298.5kb to 119.4kb via [TinyPNG](https://tinypng.com/)
+
+[Back to top](#contents)
+
+## Table booking form
+
+The booking form allows users to make direct table reservations. The user needs to provide the required field to complete their booking.
+
+![booking info](/assets/images/readme-imgs/book-info.png)
+*[reservation image address](https://images.unsplash.com/photo-1635548166842-bf67bacbefaa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=Mnw0NTMzNXwwfDF8c2VhcmNofDl8fHJlc2VydmVkfGVufDB8fHx8MTYzODcyNzMzOA&ixlib=rb-1.2.1&q=80&w=200). 
+This photo was compressed from 267.9kb to 103.1kb.
+
+![booking form](/assets/images/readme-imgs/book-form.png)
+
+[Back to top](#contents)
+
+# Contact.html page
+
+## Contact form
+    
+The contact form is available for large parties, venue hire and to address and other queries. 
+
+[Back to top](#contents)
+
+## Map and contact details
+    
+This section enables the user to find the setting and contact the bar directly. This information is also the target of the find us link.
+
+[Back to top](#contents)
+
+
+
+
+
+
+
+
+
+

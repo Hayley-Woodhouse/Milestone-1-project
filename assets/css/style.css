@@ -14,7 +14,7 @@ body {
 }
 
 .nav-link {
-    font-size: 700;
+    font-weight: 500;
 }
 
 .row {
@@ -49,7 +49,6 @@ body {
 
 .header {
   text-align: center;
-  padding-top: 100px;
   padding-bottom: 100px;
   text-transform: uppercase;
   padding-right: 50px;
@@ -58,7 +57,8 @@ body {
 
 .hr-line {
   width: 100%;
-  margin-top: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .bar-img {
@@ -106,13 +106,13 @@ table{
   margin-right: 70px;
 }
 
-.about h1 {
+.about h3 {
   font-weight: 500;
   font-size: 27px;
   width: 100%;
   text-transform: capitalize;
   letter-spacing: 0.2px;
-  padding-left: 80px;
+  padding-left: 100px;
   padding-right: 50%;
   box-sizing: border-box;
 }
@@ -209,7 +209,7 @@ table{
   height: 800px; 
 }
 
-.event-info h1 {
+.event-info h3 {
   font-weight: 500;
   text-align: center;
   font-size: 27px;
@@ -236,7 +236,7 @@ table{
   height: 100%;
 }
 
-.contact-form h1 {
+.contact-form h3 {
   font-weight: 500;
   font-size: 27px;
   width: 100%;
@@ -285,6 +285,7 @@ table{
   background-color: rgb(28, 28, 28);
   height: 100%;
   padding: 40px 0 40px 0;
+  text-align: center;
 }
 
 .address ul {
@@ -292,7 +293,7 @@ table{
   display: inline;
 }
 
-.address h1 {
+.address h2 {
   font-weight: 500;
   font-size: 27px;
   text-transform: capitalize;
@@ -304,11 +305,11 @@ table{
   text-decoration-thickness: 2px;
 }
 
-.address p {
+.address ul li p {
   letter-spacing: 0.5px;
 }
 
-#icon {
+.icon {
   font-size: 30px;
   color: rgb(81, 83, 83);
   padding-top: 20px;
@@ -319,7 +320,7 @@ table{
   height: 300px;
   margin-left: 15%;
   margin-top: 85px;
-  margin-bottom: 85px;
+  margin-bottom: 118px;
   border-radius: 4%;
 }
 
@@ -344,9 +345,11 @@ table{
 #video {
   margin-bottom: -10px;
   z-index: 0;
+  width: 100%;
+  height: auto;
 }
 
-aside {
+.booking-form > h5 {
   display: block;
   float: right;
   padding-top: 20px;
