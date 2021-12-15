@@ -14,8 +14,17 @@ The cocktail lounge website is designed to target the interest of new and return
     * [Footer](#footer)
     * [Favicon](#favicon)
 * [Index.html features](#indexhtml-features)
-    * [About us](#aboutus)
-    * [Opening times](#openingtimes)
+    * [About us](#about-us)
+    * [Opening times](#opening-times)
+    * [Drinks images](#drinks-images)
+    * [Flaticon image](#flaticon-image)
+* [Booking.html features](#bookinghtml-features)
+    * [Video](#video)
+    * [Table booking form](#table-booking-form)
+* [Contact.html features](#contacthtml-features)
+    * [Contact hero images](#contact-hero-images)
+    * [Contact form](#contact-form)
+    * [Map and Contact details](#map-and-contact-details)
 
 # UX design
 
@@ -95,6 +104,8 @@ Dark Grey #343a40
 
 The following feature are currently available within the existing web page for the cocktail lounge. The design and layout are intended to give a positive user experience in a straightforward and understandable format.
 
+[Back to top](#contents)
+
  ## Navbar
 
 The navigation bar is fixed to the top of each page, to enable navigation between the three pages without having to scroll up. The links for each page are clearly labelled with an additional link to a pdf menu. The navbar then collapses to a hamburger menu on the small mobile devices. 
@@ -105,7 +116,9 @@ The navigation bar is fixed to the top of each page, to enable navigation betwee
 
 ## Favicon
 
-The favicon image was selected from [favicon.io](https://favicon.io/emoji-favicons/cocktail-glass) and is a reflection of the bar and websites image.
+The favicon image was selected from [Favicon.io](https://favicon.io/emoji-favicons/cocktail-glass) and is a reflection of the bar and websites image.
+
+![favicon image](/assets/images/readme-imgs/favicon.png)
 
 [Back to top](#contents)
 
@@ -118,6 +131,10 @@ The footer contains four links to social media pages. Trip adviser, Facebook, tw
 [Back to top](#contents)
 
 # index.html features
+
+Including the above, the following features appear on the index.html (home) page.
+
+[Back to top](#contents)
 
 ## About us
     
@@ -158,7 +175,19 @@ All photos compressed via [TinyPNG](https://tinypng.com/)
 
 [Back to top](#contents)
 
-# Booking.html feature
+## Flaticon image
+
+The image used was sourced from [Flaticon.com](https://www.flaticon.com/free-icon/new_891446?term=new&page=1&position=11&page=1&position=11&related_id=891446&origin=search)
+
+![New icon](/assets/images/readme-imgs/flaticon.png)
+
+[Back to top](#contents)
+
+# Booking.html features
+
+The following feature appear on the booking.html (booking) page. The footer, navbar and favicon elements continue on all pages.
+
+[Back to top](#contents)
 
 ## Video
     
@@ -185,20 +214,64 @@ This photo was compressed from 267.9kb to 103.1kb.
 
 [Back to top](#contents)
 
-# Contact.html page
+# Contact.html features
+
+The following feature appear on the contact.html (contact) page. The footer, navbar and favicon elements continue on all pages.
+
+## Contact hero images
+
+### Desktop image
+
+![desktop view](/assets/images/readme-imgs/contact-desk.png)
+
+### Laptop image
+
+![laptop view](/assets/images/readme-imgs/contact-laptop.png)
+
+### Mobile image
+
+![mobile view](/assets/images/readme-imgs/contact-mobile.png)
+
+[Back to top](#contents)
 
 ## Contact form
     
-The contact form is available for large parties, venue hire and to address and other queries. 
+The contact form is available for large parties, venue hire and to address and other queries.
+
+![contact form](/assets/images/readme-imgs/contact-form.png)
 
 [Back to top](#contents)
 
-## Map and contact details
+## Map and Contact details
     
 This section enables the user to find the setting and contact the bar directly. This information is also the target of the find us link.
 
+![map and contact details](/assets/images/readme-imgs/map-contact.png)
+
 [Back to top](#contents)
 
+# Testing
+Click the link for testing.
+
+# Technologies used
+
+- [HTML 5](https://en.wikipedia.org/wiki/HTML5)
+- [CSS](https://en.wikipedia.org/wiki/CSS)
+- [Bootstrap V5.0](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+- [Balsamiq](https://balsamiq.com/wireframes/desktop/#)
+- [gitpod](https://www.gitpod.io/)
+- [github](https://github.com/Hayley-Woodhouse/Milestone-1-project)
+
+
+# Credits
+
+- Font awesome
+- Google fonts
+- Pixlr
+- Flaticon
+- Favicon
+
+# Acknowledgements
 
 
 
