@@ -290,7 +290,7 @@ This section enables the user to find the setting and contact the bar directly. 
 [Back to top](#contents)
 
 # 6 Testing
-Click the [link](./Milestone-1-project/TESTING.md) for testing.
+Click the [link](TESTING.md) for testing.
 
 [Back to top](#contents)
 
