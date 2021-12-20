@@ -1,34 +1,45 @@
 # The Cocktail Lounge
 
-The cocktail lounge website is designed to target the interest of new and returning customers. The website provides background information of the history of the bar. Contact details and booking forms are easily accessible and photos of the lounge are a helpful and enjoyable user experience. 
+The cocktail lounge website is designed to target the interest of new and returning customers. The website provides background information of the history of the bar. Contact details and booking forms are easily accessible and photos of the lounge make the web design a helpful and enjoyable user experience. 
 
 # Contents
 
-* [User's goals](#users-goals)
-* [Owner's Goals](#owners-goals)
-* [Wireframes](#wireframes)
-* [Typography](#typography)
-* [Colour Scheme](#colour-scheme)
-* [Features](#features)
-    *  [Navbar](#navbar)
-    * [Footer](#footer)
-    * [Favicon](#favicon)
-* [Index.html features](#indexhtml-features)
-    * [About us](#about-us)
-    * [Opening times](#opening-times)
-    * [Drinks images](#drinks-images)
-    * [Flaticon image](#flaticon-image)
-* [Booking.html features](#bookinghtml-features)
-    * [Video](#video)
-    * [Table booking form](#table-booking-form)
-* [Contact.html features](#contacthtml-features)
-    * [Contact hero images](#contact-hero-images)
-    * [Contact form](#contact-form)
-    * [Map and Contact details](#map-and-contact-details)
+* [1 UX design](#ux-design)
+    * [1.1 User's goals](#users-goals)
+    * [1.2 Owner's Goals](#owners-goals)
+    * [1.3 Potential Features](#potential-features)
+    * [1.4 Design sketch](#design-sketch)
+    * [1.5 Wireframes](#wireframes)
+    * [1.6 Typography](#typography)
+    * [1.7 Colour Scheme](#colour-scheme)
+* [2 Features](#features)
+    *  [2.1 Navbar](#navbar)
+    * [2.2 Footer](#footer)
+    * [2.3 Favicon](#favicon)
+* [3 Index.html features](#indexhtml-features)
+    * [3.1 About us](#about-us)
+    * [3.2 Opening times](#opening-times)
+    * [3.3 Drinks images](#drinks-images)
+    * [3.4 Flaticon image](#flaticon-image)
+* [4 Booking.html features](#bookinghtml-features)
+    * [4.1 Video](#video)
+    * [4.2 Table booking form](#table-booking-form)
+* [5 Contact.html features](#contacthtml-features)
+    * [5.1 Contact hero images](#contact-hero-images)
+    * [5.2 Contact form](#contact-form)
+    * [5.3 Map and Contact details](#map-and-contact-details)
+* [6 Testing](#testing)
+* [7 Technologies used](#technologies-used)
+* [8 Credits](#credits)
+* [9 Acknowledgements](#acknowledgements)
 
-# UX design
+#  1 UX design
 
-### User’s goals
+The UX design enables the developer create a website that meets the needs of its users. The UX planes help to assure a fully comprehensive design and develpment process. 
+
+[Back to top](#contents)
+
+### 1.1 User’s goals
 
 -	As a site-visitor I want to be able to contact the bar.
 -	As a site-visitor I want to see images of the bar to get a feel for the setting.
@@ -39,7 +50,7 @@ The cocktail lounge website is designed to target the interest of new and return
 
 [Back to top](#contents) 
 
-### Owner’s goals
+### 1.2 Owner’s goals
 
 -	As the owner I want to attract new and revisiting customers.
 -	As the owner I would the site to reflect the style and theme of the bar.
@@ -49,9 +60,37 @@ The cocktail lounge website is designed to target the interest of new and return
 
 [Back to top](#contents) 
 
-# Wireframes
+## 1.3 Potential Features
 
-The wireframes were created in conjuction with the  users and the owner’s highlighted goals. All frames are displated in desktop/laytop, tablet and mobile devices. 
+After reviewing the user and owners goals the following features have been identified to be added to the design of the website.
+
+-	Navbar with links to all pages. At a small screen view the links collapse to a hamburger menu for familiarity. 
+-	Opening times in a table element on the opening/home page.
+-	Images of the bar, staff and drinks and people have fun rolling across all pages.
+-	Two form elements, one for booking a table and the other for contacting the bar. 
+-	Events and offers displayed on a banner on the top home page.
+-	Menu and prices -downloadable pdf
+-	Location, contact information and a map all linked within the contact page.
+-	Gallery of images displaying the venue setting and pasted events
+-	Links to social media
+o	Facebook
+o	Instagram
+o	Twitter
+o	TripAdvisor
+
+[Back to top](#contents) 
+
+## 1.4 Design sketch
+
+The First, simple design and layout of the website.
+
+![sketch](/assets/images/readme-imgs/design-wire.png)
+
+[Back to top](#contents)
+
+## 1.5 Wireframes
+
+The wireframes were created in conjuction with the  users goals, the owner’s goals and the sketches. All frames are displated in desktop/laytop, tablet and mobile devices. 
 
 ### index.html 
 
@@ -67,7 +106,7 @@ The wireframes were created in conjuction with the  users and the owner’s high
 
 [Back to top](#contents)
 
-# Typography
+## 1.6 Typography
 
 The following fonts were used within the cocktail lounge website. 
 
@@ -82,7 +121,7 @@ This font is used for the main body text and has a full back font of san-serif a
 
 [Back to top](#contents)
 
-# Colour scheme
+## 1.7 Colour scheme
 
 The colour scheme used would have been representative of the bar’s decor and its predesigned logo. This is to support continuity and familiarity between the setting and its website.
 
@@ -100,13 +139,13 @@ Dark Grey #343a40
 
 [Back to top](#contents)
 
-# Features
+# 2 Features
 
 The following feature are currently available within the existing web page for the cocktail lounge. The design and layout are intended to give a positive user experience in a straightforward and understandable format.
 
 [Back to top](#contents)
 
- ## Navbar
+ ## 2.1 Navbar
 
 The navigation bar is fixed to the top of each page, to enable navigation between the three pages without having to scroll up. The links for each page are clearly labelled with an additional link to a pdf menu. The navbar then collapses to a hamburger menu on the small mobile devices. 
 
@@ -114,7 +153,7 @@ The navigation bar is fixed to the top of each page, to enable navigation betwee
 
 [Back to top](#contents)
 
-## Favicon
+## 2.2 Favicon
 
 The favicon image was selected from [Favicon.io](https://favicon.io/emoji-favicons/cocktail-glass) and is a reflection of the bar and websites image.
 
@@ -122,7 +161,7 @@ The favicon image was selected from [Favicon.io](https://favicon.io/emoji-favico
 
 [Back to top](#contents)
 
-## Footer
+## 2.3 Footer
     
 The footer contains four links to social media pages. Trip adviser, Facebook, twitter, and Instagram. It also has a find us link that navigates to the contact information and map on the contact.html page.
 
@@ -130,13 +169,13 @@ The footer contains four links to social media pages. Trip adviser, Facebook, tw
 
 [Back to top](#contents)
 
-# index.html features
+# 3 index.html features
 
 Including the above, the following features appear on the index.html (home) page.
 
 [Back to top](#contents)
 
-## About us
+## 3.1 About us
     
 A description about the cocktail lounge, its history and what is available at the setting. 
 The collaborating drink image showcase the bars menu and style. Photo used from [pixlr.com](https://pixlr.com/) - [image address](https://images.unsplash.com/photo-1546171753-97d7676e4602?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=Mnw0NTMzNXwwfDF8c2VhcmNofDMwfHxjb2NrdGFpbHN8ZW58MHx8fHwxNjM4NTMyMTI4&ixlib=rb-1.2.1&q=80&w=200). The photo was compressed from 189.8kb to 79.8kb using [TinyPNG](https://tinypng.com/)
@@ -145,7 +184,7 @@ The collaborating drink image showcase the bars menu and style. Photo used from 
 
 [Back to top](#contents)
 
-## Opening times
+## 3.2 Opening times
 
 A simple table with the opening days and times of the bar. The collaborating bar image gives the user a visual aspect of the bar. Photo used from [pixlr.com](https://pixlr.com/) - [image address](https://images.unsplash.com/photo-1591257904364-5137d7203d96?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=Mnw0NTMzNXwwfDF8c2VhcmNofDExMHx8Y29ja3RhaWwlMjBiYXJ8ZW58MHx8fHwxNjM4NTMyNzUx&ixlib=rb-1.2.1&q=80&w=200). The photo was compressed from 614.5kb to 79.8kb using [TinyPNG](https://tinypng.com/)
 
@@ -153,7 +192,7 @@ A simple table with the opening days and times of the bar. The collaborating bar
 
 [Back to top](#contents)
 
-## Drinks images
+## 3.3 Drinks images
 
 Four images of drinks available at the bar when hoovering over the image a filter slides over the image displaying the name of the drink. This provides the user a visual of the drinks menu and service provided at the lounge. [pixlr.com](https://pixlr.com/).
 
@@ -175,7 +214,7 @@ All photos compressed via [TinyPNG](https://tinypng.com/)
 
 [Back to top](#contents)
 
-## Flaticon image
+## 3.4 Flaticon image
 
 The image used was sourced from [Flaticon.com](https://www.flaticon.com/free-icon/new_891446?term=new&page=1&position=11&page=1&position=11&related_id=891446&origin=search)
 
@@ -183,13 +222,13 @@ The image used was sourced from [Flaticon.com](https://www.flaticon.com/free-ico
 
 [Back to top](#contents)
 
-# Booking.html features
+# 4 Booking.html features
 
 The following feature appear on the booking.html (booking) page. The footer, navbar and favicon elements continue on all pages.
 
 [Back to top](#contents)
 
-## Video
+## 4.1 Video
     
 The video is muted, repeated lopped and begins playing when the page loads. it is also replaced on mobile devices for a static image. The video and image are a direct representation of the bar to provide familiarity to the user.
 
@@ -202,7 +241,7 @@ The video is muted, repeated lopped and begins playing when the page loads. it i
 
 [Back to top](#contents)
 
-## Table booking form
+## 4.2 Table booking form
 
 The booking form allows users to make direct table reservations. The user needs to provide the required field to complete their booking.
 
@@ -214,11 +253,11 @@ This photo was compressed from 267.9kb to 103.1kb.
 
 [Back to top](#contents)
 
-# Contact.html features
+# 5 Contact.html features
 
 The following feature appear on the contact.html (contact) page. The footer, navbar and favicon elements continue on all pages.
 
-## Contact hero images
+## 5.1 Contact hero images
 
 ### Desktop image
 
@@ -234,7 +273,7 @@ The following feature appear on the contact.html (contact) page. The footer, nav
 
 [Back to top](#contents)
 
-## Contact form
+## 5.2 Contact form
     
 The contact form is available for large parties, venue hire and to address and other queries.
 
@@ -242,7 +281,7 @@ The contact form is available for large parties, venue hire and to address and o
 
 [Back to top](#contents)
 
-## Map and Contact details
+## 5.3 Map and Contact details
     
 This section enables the user to find the setting and contact the bar directly. This information is also the target of the find us link.
 
@@ -250,12 +289,12 @@ This section enables the user to find the setting and contact the bar directly. 
 
 [Back to top](#contents)
 
-# Testing
-Click the link for testing.
+# 6 Testing
+Click the [link](../testing.md) for testing.
 
-# Technologies used
+# 7 Technologies used
 
-- [HTML 5](https://en.wikipedia.org/wiki/HTML5)
+- [HTML 5](https://en.wikipedia.org/wiki/HTML5) 
 - [CSS](https://en.wikipedia.org/wiki/CSS)
 - [Bootstrap V5.0](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
 - [Balsamiq](https://balsamiq.com/wireframes/desktop/#)
@@ -263,16 +302,26 @@ Click the link for testing.
 - [github](https://github.com/Hayley-Woodhouse/Milestone-1-project)
 
 
-# Credits
+# 8 Credits
 
-- Font awesome
-- Google fonts
-- Pixlr
-- Flaticon
-- Favicon
+- [Font awesome](https://fontawesome.com/)
+- [Google fonts](https://fonts.google.com/)
+- [Pixlr](https://pixlr.com/x/#search)
+- [Flaticon](https://www.flaticon.com/)
+- [Favicon](https://favicon.io/emoji-favicons/cocktail-glass/)
+- [W3S](https://validator.w3.org/)
 
-# Acknowledgements
 
+
+# 9 Acknowledgements
+
+This website was created for the first milestone project for the full stack development diploma with the code institute.
+
+With thanks to 
+
+Precious Ijege for the mentor assistant, advice, and support.
+
+Philip Morris for the tuition and direction
 
 
 
