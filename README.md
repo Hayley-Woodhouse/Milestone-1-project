@@ -4,34 +4,34 @@ The cocktail lounge website is designed to target the interest of new and return
 
 # Contents
 
-* [1 UX design](#ux-design)
-    * [1.1 User's goals](#users-goals)
-    * [1.2 Owner's Goals](#owners-goals)
-    * [1.3 Potential Features](#potential-features)
-    * [1.4 Design sketch](#design-sketch)
-    * [1.5 Wireframes](#wireframes)
-    * [1.6 Typography](#typography)
-    * [1.7 Colour Scheme](#colour-scheme)
-* [2 Features](#features)
-    *  [2.1 Navbar](#navbar)
-    * [2.2 Footer](#footer)
-    * [2.3 Favicon](#favicon)
-* [3 Index.html features](#indexhtml-features)
-    * [3.1 About us](#about-us)
-    * [3.2 Opening times](#opening-times)
-    * [3.3 Drinks images](#drinks-images)
-    * [3.4 Flaticon image](#flaticon-image)
-* [4 Booking.html features](#bookinghtml-features)
-    * [4.1 Video](#video)
-    * [4.2 Table booking form](#table-booking-form)
-* [5 Contact.html features](#contacthtml-features)
-    * [5.1 Contact hero images](#contact-hero-images)
-    * [5.2 Contact form](#contact-form)
-    * [5.3 Map and Contact details](#map-and-contact-details)
-* [6 Testing](#testing)
-* [7 Technologies used](#technologies-used)
-* [8 Credits](#credits)
-* [9 Acknowledgements](#acknowledgements)
+* [1 UX design](#1-ux-design)
+    * [1.1 User's goals](#11-users-goals)
+    * [1.2 Owner's Goals](#12-owners-goals)
+    * [1.3 Potential Features](#p13-otential-features)
+    * [1.4 Design sketch](#14-design-sketch)
+    * [1.5 Wireframes](#15-wireframes)
+    * [1.6 Typography](#16-typography)
+    * [1.7 Colour Scheme](#17-colour-scheme)
+* [2 Features](#2-features)
+    *  [2.1 Navbar](#21-navbar)
+    * [2.2 Footer](#22-footer)
+    * [2.3 Favicon](#23-favicon)
+* [3 Index.html features](#3-indexhtml-features)
+    * [3.1 About us](#31-about-us)
+    * [3.2 Opening times](#32-opening-times)
+    * [3.3 Drinks images](#33-drinks-images)
+    * [3.4 Flaticon image](#34-flaticon-image)
+* [4 Booking.html features](#4-bookinghtml-features)
+    * [4.1 Video](#41-video)
+    * [4.2 Table booking form](#42-table-booking-form)
+* [5 Contact.html features](#5-contacthtml-features)
+    * [5.1 Contact hero images](#51-contact-hero-images)
+    * [5.2 Contact form](#52-contact-form)
+    * [5.3 Map and Contact details](#53-map-and-contact-details)
+* [6 Testing](#6-testing)
+* [7 Technologies used](#7-technologies-used)
+* [8 Credits](#8-credits)
+* [9 Acknowledgements](#9-acknowledgements)
 
 #  1 UX design
 
@@ -290,7 +290,9 @@ This section enables the user to find the setting and contact the bar directly. 
 [Back to top](#contents)
 
 # 6 Testing
-Click the [link](../testing.md) for testing.
+Click the [link](./Milestone-1-project/TESTING.md) for testing.
+
+[Back to top](#contents)
 
 # 7 Technologies used
 
@@ -301,6 +303,7 @@ Click the [link](../testing.md) for testing.
 - [gitpod](https://www.gitpod.io/)
 - [github](https://github.com/Hayley-Woodhouse/Milestone-1-project)
 
+[Back to top](#contents)
 
 # 8 Credits
 
@@ -311,7 +314,7 @@ Click the [link](../testing.md) for testing.
 - [Favicon](https://favicon.io/emoji-favicons/cocktail-glass/)
 - [W3S](https://validator.w3.org/)
 
-
+[Back to top](#contents)
 
 # 9 Acknowledgements
 
@@ -323,6 +326,7 @@ Precious Ijege for the mentor assistant, advice, and support.
 
 Philip Morris for the tuition and direction
 
+[Back to top](#contents)
 
 
 
