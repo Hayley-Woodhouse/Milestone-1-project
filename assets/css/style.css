@@ -530,14 +530,14 @@ footer {
 
 @media screen and (min-width:769px) {
   .bg-img-contact {
-    background-image: url(/assets/images/contact-imgs/drinks-desk.jpg);
+    background-image: url(../images/contact-imgs/drinks-desk.jpg);
     height: 1000px;
   }
 }
 
 @media screen and (min-width:426px) and (max-width:768px) {
   .bg-img-contact {
-    background-image: url(/assets/images/contact-imgs/drink-tab.jpg);
+    background-image: url(../images/contact-imgs/drink-tab.jpg);
     height: 1000px;
     margin-top: -150px;
   }
@@ -661,7 +661,7 @@ footer {
     margin-bottom: 30px
   }
   .bg-img-index {
-    background-image: url(/assets/images/index-imgs/hero-mob.jpg);
+    background-image: url(../images/index-imgs/hero-mob.jpg);
     margin-top: 0;
     margin-bottom: -400px;
   }
@@ -688,9 +688,9 @@ footer {
 
 @media screen and (max-width:1440px) and (min-width:426px) {
   .bg-img-index {
-    background-image: url(/assets/images/index-imgs/hero-lap.jpg);
+    background-image: url(../images/index-imgs/hero-lap.jpg);
     margin-top: 0;
-  }
+  }  
 }
 
 
