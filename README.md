@@ -2,6 +2,9 @@
 
 The cocktail lounge website is designed to target the interest of new and returning customers. The website provides background information of the history of the bar. Contact details and booking forms are easily accessible and photos of the lounge make the web design a helpful and enjoyable user experience. 
 
+
+Welcome to [The Cocktail Lounge](https://hayley-woodhouse.github.io/Milestone-1-project/)
+
 # Contents
 
 * [1 UX design](#1-ux-design)
