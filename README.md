@@ -287,10 +287,14 @@ This section enables the user to find the setting and contact the bar directly. 
 
 ![map and contact details](/assets/images/readme-imgs/map-contact.png)
 
+The map was obtained using a embedded link via google maps.
+
+![embedded image](/assets/images/readme-imgs/embedded-map.png)
+
 [Back to top](#contents)
 
 # 6 Testing
-Click the [link](TESTING.md) for testing.
+Click the [link](gitTESTING.md) for testing.
 
 [Back to top](#contents)
 
@@ -302,6 +306,8 @@ Click the [link](TESTING.md) for testing.
 - [Balsamiq](https://balsamiq.com/wireframes/desktop/#)
 - [gitpod](https://www.gitpod.io/)
 - [github](https://github.com/Hayley-Woodhouse/Milestone-1-project)
+- [Google maps](https://www.google.com/maps/@51.5075777,-0.1282161,17z/data=!5m1!1e3)
+- [W3 Schools](https://www.w3schools.com/)
 
 [Back to top](#contents)
 

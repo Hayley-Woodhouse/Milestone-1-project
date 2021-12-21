@@ -2,19 +2,19 @@
 
 # Contents
 
-* [1 W3C Validation](#w3c-validation)
-    * [1.1 index.html (home) page](#indexhtml-home-page)
-    * [1.2 booking.html page](#bookinghtml-page)
-    * [1.3 contact.html page](#contacthtml-page)
-    * [1.4 style.css](#stylecss)
-* [2 Responsiveness](#responsiveness)
-* [3 Browsers](#browsers)
-* [4 Lighthouse](#Lighthouse)
-* [5 Testing user stories](#testing-user-stories)
-    * [5.1 User's goals](#users-goals)
-    * [5.2 Owner's goals](#owners-goals)
-* [6 Future update](#future-updates)
-* [7 Bugs](#Bugs)
+* [1 W3C Validation](#1-w3c-validation)
+    * [1.1 index.html (home) page](#11-indexhtml-home-page)
+    * [1.2 booking.html page](#12-bookinghtml-page)
+    * [1.3 contact.html page](#13-contacthtml-page)
+    * [1.4 style.css](#14-stylecss)
+* [2 Responsiveness](#2-responsiveness)
+* [3 Browsers](#3-browsers)
+* [4 Lighthouse](#4-lighthouse)
+* [5 Testing user stories](#5-testing-user-stories)
+    * [5.1 User's goals](#51-users-goals)
+    * [5.2 Owner's goals](#52-owners-goals)
+* [6 Future update](#6-future-updates)
+* [7 Bugs](#7-bugs)
 
 # 1 W3C Validation
 
@@ -171,6 +171,18 @@ The user stories helped to identify the key information and nav, layout and colo
 ### Section tag
 - A semantic section tag was added to the spaces withing the html pages that didnt have text. This was highlighted in the w3c validation.
     - removing the section tag resolved the issue
+
+### index page hero image
+- The image would not appear when device screen size reduced.
+    - The media query redirected well but the path to the image needed correcting
+
+### contact page images
+- The image would not appear when device screen size increased.
+    - The media query redirected well but the path to the image needed correcting
+
+### index page hero image
+- The image to replace the video was missing on the mobile screen size.
+    - The media query redirected well but the path to the image needed correcting
 
 ## Unresolved 
 
