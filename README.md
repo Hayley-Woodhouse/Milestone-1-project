@@ -294,7 +294,7 @@ The map was obtained using a embedded link via google maps.
 [Back to top](#contents)
 
 # 6 Testing
-Click the [link](gitTESTING.md) for testing.
+Click the [link](TESTING.md) for testing.
 
 [Back to top](#contents)
 
