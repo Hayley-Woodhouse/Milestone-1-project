@@ -13,8 +13,7 @@
 * [5 Testing user stories](#5-testing-user-stories)
     * [5.1 User's goals](#51-users-goals)
     * [5.2 Owner's goals](#52-owners-goals)
-* [6 Future update](#6-future-updates)
-* [7 Bugs](#7-bugs)
+* [6 Bugs](#7-bugs)
 
 # 1 W3C Validation
 
@@ -60,12 +59,15 @@ The sites responsive design was tested using Google Crome devTools
 
 The website was tested on the following browsers.
 
-* Cromebook 
+* Cromebook  
+    - tested well
 * Firefox 
 
     - Image on homepage ofset on ipad screen size
 * Safari
+    - tested well
 * Edge
+    - tested well
 * Opera 
     
     - Slight gap on headings due to margin on home and booking page.
@@ -148,17 +150,7 @@ The user stories helped to identify the key information and nav, layout and colo
 
 [Back to top](#contents)
 
-
-# 6 Future updates
-
--	A banner on the home page with links to special offers
--	A gallery page of images of staff and social events
--	Staff and roles information page
--	Add the name logo to the navbar
-
-[Back to top](#contents)
-
-# 7 Bugs
+# 6 Bugs
 
 ### footer layout
 - The footer has one row with two columns. Each coloum contains links. when the page as set to a mobile device the footer columns stacked ontop of each other creating two rows.

@@ -2,6 +2,7 @@
 
 The cocktail lounge website is designed to target the interest of new and returning customers. The website provides background information of the history of the bar. Contact details and booking forms are easily accessible and photos of the lounge make the web design a helpful and enjoyable user experience. 
 
+![reponsive devices](/assets/images/readme-imgs/mile1repons.png)
 
 Welcome to [The Cocktail Lounge](https://hayley-woodhouse.github.io/Milestone-1-project/)
 
@@ -31,10 +32,11 @@ Welcome to [The Cocktail Lounge](https://hayley-woodhouse.github.io/Milestone-1-
     * [5.1 Contact hero images](#51-contact-hero-images)
     * [5.2 Contact form](#52-contact-form)
     * [5.3 Map and Contact details](#53-map-and-contact-details)
-* [6 Testing](#6-testing)
-* [7 Technologies used](#7-technologies-used)
-* [8 Credits](#8-credits)
-* [9 Acknowledgements](#9-acknowledgements)
+* [6 Future update](#6-future-updates)
+* [7 Testing](#6-testing)
+* [8 Technologies used](#7-technologies-used)
+* [9 Credits](#8-credits)
+* [10 Acknowledgements](#9-acknowledgements)
 
 #  1 UX design
 
@@ -296,12 +298,21 @@ The map was obtained using a embedded link via google maps.
 
 [Back to top](#contents)
 
-# 6 Testing
+# 6 Future updates
+
+-	A banner on the home page with links to special offers
+-	A gallery page of images of staff and social events
+-	Staff and roles information page
+-	Add the name logo to the navbar
+
+[Back to top](#contents)
+
+# 7 Testing
 Click the [link](TESTING.md) for testing.
 
 [Back to top](#contents)
 
-# 7 Technologies used
+# 8 Technologies used
 
 - [HTML 5](https://en.wikipedia.org/wiki/HTML5) 
 - [CSS](https://en.wikipedia.org/wiki/CSS)
@@ -314,18 +325,19 @@ Click the [link](TESTING.md) for testing.
 
 [Back to top](#contents)
 
-# 8 Credits
+# 9 Credits
 
-- [Font awesome](https://fontawesome.com/)
-- [Google fonts](https://fonts.google.com/)
-- [Pixlr](https://pixlr.com/x/#search)
-- [Flaticon](https://www.flaticon.com/)
-- [Favicon](https://favicon.io/emoji-favicons/cocktail-glass/)
-- [W3S](https://validator.w3.org/)
+- [Font awesome](https://fontawesome.com/) was used for all icons.
+- [Google fonts](https://fonts.google.com/) was used for the fonts within the website.
+- [Pixlr](https://pixlr.com/x/#search) For all images used throughout the website.
+- [pexels](https://www.pexels.com/) was used for the video.
+- [Flaticon](https://www.flaticon.com/) was used for the "New" image.
+- [Favicon](https://favicon.io/emoji-favicons/cocktail-glass/) was used for the favicon image.
+- [W3S](https://validator.w3.org/) was used to validate the html and css files.
 
 [Back to top](#contents)
 
-# 9 Acknowledgements
+# 10 Acknowledgements
 
 This website was created for the first milestone project for the full stack development diploma with the code institute.
 
